@@ -8,7 +8,7 @@
 
 import UIKit
 
-class Item {
+class Item: Codable {
     var title: String = "New Item"
     var done: Bool = false
 }
